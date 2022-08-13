@@ -2,12 +2,12 @@ package com.example.helloearth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.helloearth.databinding.FragmentGlobeBinding
+import com.example.helloearth.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        FragmentGlobeBinding.inflate(layoutInflater).run {
+        ActivityMainBinding.inflate(layoutInflater).run {
             setContentView(this.root)
         }
     }

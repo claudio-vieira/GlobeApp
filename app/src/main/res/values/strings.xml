@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">HelloEarth</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="globe_button">Globe</string>
+    <string name="globe_with_location_button">Locations</string>
 </resources>

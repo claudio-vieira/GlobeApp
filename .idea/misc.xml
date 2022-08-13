@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_globe.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_sphere_globe.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_stamen_water_color.xml" value="0.19610507246376813" />
       </map>
     </option>
   </component>

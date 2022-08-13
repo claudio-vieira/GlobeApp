@@ -17,8 +17,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "HelloEarth"
 include ':app'
-
-include ':maply'
-project(':maply').projectDir = new File(settingsDir, '../WhirlyGlobe/android/library/maply')
-//project(':maply').projectDir = new File(settingsDir,"../../library/maply/")
-//include ':maply'

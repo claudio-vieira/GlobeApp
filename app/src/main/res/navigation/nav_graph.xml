@@ -3,11 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/globeFragment">
+    app:startDestination="@id/globeHomeFragment">
 
     <fragment
-        android:id="@+id/globeFragment"
-        android:name="com.example.helloearth.GlobeFragment"
+        android:id="@+id/globeHomeFragment"
+        android:name="com.example.helloearth.fragment.GlobeHomeFragment"
         android:label="fragment_globe"
-        tools:layout="@layout/fragment_globe" />
+        tools:layout="@layout/fragment_globe_home" >
+        <action
+            android:id="@+id/action_globeHomeFragment_to_stamenWaterColorGlobeFragment"
+            app:destination="@id/stamenWaterColorGlobeFragment" />
+        <action
+            android:id="@+id/action_globeHomeFragment_to_sphereGlobeFragment"
+            app:destination="@id/sphereGlobeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stamenWaterColorGlobeFragment"
+        android:name="com.example.helloearth.fragment.StamenWaterColorGlobeFragment"
+        android:label="fragment_globe"
+        tools:layout="@layout/fragment_stamen_water_color_globe" />
+    <fragment
+        android:id="@+id/sphereGlobeFragment"
+        android:name="com.example.helloearth.fragment.SphereGlobeFragment"
+        android:label="fragment_globe"
+        tools:layout="@layout/fragment_sphere_globe" />
 </navigation>
